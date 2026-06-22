@@ -129,6 +129,7 @@ Environment=OLLAMA_FLASH_ATTENTION=1
 Environment=OLLAMA_GPU_OVERHEAD=0
 Environment=OLLAMA_CONTEXT_LENGTH=16384
 Environment=OLLAMA_MAX_QUEUE=4
+Environment=OLLAMA_HOST=0.0.0.0
 OOMScoreAdjust=-1000
 EOF
 sudo systemctl daemon-reload && sudo systemctl restart ollama
